@@ -24,12 +24,23 @@
 </div>
 <!-- /Preloader -->
 
-<header>
-    <video muted autoplay loop>
+<!-- Video Background -->
+<header class="video-container">
+
+    <video class="video-bg" muted autoplay loop>
         <source src="video-background.mp4" type="video/mp4">
     </video>
+
     <h1>Video Background</h1>
+
+    <!-- Play / Pause -->
+    <button class="play-pause" onclick="pause()">
+        <img src="pause.png" class="animate__animated" id="play-pause-img" width="100%" alt="">
+    </button>
+    <!-- Play / Pause -->
+
 </header>
+<!-- /Video Background -->
 
 </body>
 </html>
